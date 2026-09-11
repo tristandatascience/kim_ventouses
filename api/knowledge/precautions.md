@@ -1,16 +1,14 @@
 # Précautions et contre-indications
 
-## Contre-indications principales
-La thérapie par ventouses ne convient pas : aux femmes enceintes, aux personnes souffrant de troubles de la coagulation ou sous anticoagulants, aux personnes atteintes de maladies dermatologiques ou de lésions cutanées sur les zones à traiter, et en cas de fièvre ou d'infection aiguë. En cas de doute, demandez l'avis de votre médecin avant de réserver.
+## Séance déconseillée si
+- traitement anticoagulant ou trouble de la coagulation ;
+- plaie, brûlure ou infection sur la zone ;
+- varices, phlébite ou thrombose ;
+- fièvre ou infection en cours ;
+- grossesse ;
+- grosseur ou lésion non identifiée sur la zone.
 
-## Aucun diagnostic médical
-Le cabinet et son assistant en ligne ne posent aucun diagnostic médical et ne font aucune promesse thérapeutique. Pour tout problème de santé, consultez un professionnel de santé.
+Cette liste n'est pas exhaustive et une réponse « oui » n'interdit pas toujours la séance. Dans le doute, écrire au cabinet avant de réserver : on regarde ensemble, ça prend deux minutes.
 
-## Après la séance
-Il est recommandé de bien s'hydrater après la séance, d'éviter les efforts intenses pendant quelques heures et de garder les zones traitées au chaud. Les marques s'estompent d'elles-mêmes en 3 à 7 jours.
-
-## Contraindications (English)
-Cupping therapy is not suitable for: pregnant women, people with coagulation disorders or on anticoagulants, skin conditions or lesions in the treatment areas, fever or acute infection. When in doubt, ask your doctor before booking.
-
-## After a session (English)
-Drink plenty of water, avoid intense exertion for a few hours, and keep treated areas warm. Marks fade on their own within 3 to 7 days.
+## Les ventouses laissent des marques
+Des cercles rouges à violacés persistent habituellement entre 3 et 10 jours. C'est l'effet normal de la technique, sans gravité — mais mieux vaut le savoir avant de réserver. Le Gua Sha laisse le même type de marques.

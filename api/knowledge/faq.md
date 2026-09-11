@@ -1,31 +1,25 @@
 # Questions fréquentes
 
-## Est-ce que les ventouses font mal ?
-Non, la sensation est celle d'une pression inverse ferme mais confortable. L'intensité est ajustée au ressenti de chaque personne pendant toute la séance.
+## Est-ce que ça fait mal ?
+Non. La sensation est celle d'une traction ferme sur la peau, parfois surprenante les premières secondes. L'intensité de la succion se règle à tout moment : il suffit de le dire et c'est ajusté. Une séance ne doit jamais être douloureuse.
 
-## Combien de temps durent les marques ?
-Les décolorations circulaires laissées par les ventouses disparaissent généralement entre 3 et 7 jours selon la circulation de chacun. Ce sont des marques sans danger, indolores, qui ne correspondent pas à des bleus.
+## Ces marques, elles partent en combien de temps ?
+Entre 3 et 10 jours selon les peaux. Ce sont des cercles rouges à violacés, indolores : l'effet normal de la technique, pas un bleu ni une blessure. Le Gua Sha laisse le même type de marques. Pour un mariage, une séance photo ou la plage dans la semaine, le dire : on travaille des zones couvertes ou on décale.
 
-## À qui s'adresse cette thérapie ?
-Elle convient aux personnes souffrant de tensions musculaires, de stress, de fatigue ou de douleurs chroniques légères. Elle est également appréciée des sportifs pour la récupération.
+## Je dois me déshabiller entièrement ?
+Non. Seule la zone travaillée est découverte, le reste du corps reste couvert. Venir avec un haut confortable, facile à retirer. Les sous-vêtements restent.
 
-## Quelle est la durée d'une séance ?
-Comptez entre 45 et 75 minutes selon le soin choisi, dont un temps d'échange initial pour faire le point sur les besoins.
+## Je prends un traitement — je peux venir ?
+Cela dépend du traitement. Les anticoagulants sont une contre-indication ferme. Pour le reste, écrire au cabinet avant de réserver : mieux vaut deux minutes d'échange qu'une séance à annuler sur place. Le questionnaire complet est rempli ensemble à la première venue.
 
-## Comment réserver une séance ?
-Par email à bonjour@soma-souffle.com. L'assistant en ligne du site peut aussi orienter vers la réservation.
+## Je ne sais pas quelle formule choisir
+Zone précise (nuque, bas du dos) : Ventouses ciblées à 60 €. Temps plus long et deux techniques : Ventouses & Gua Sha à 90 €. L'aspiration intrigue sans tenter : Gua Sha corporel à 60 €. Dans tous les cas, on ajuste sur place si le choix ne convient pas.
 
-## Does cupping hurt? (English)
-No — the sensation is a firm but comfortable reverse pressure. Intensity is adjusted to each person's comfort throughout the session.
+## Et si je dois annuler ?
+Librement, jusqu'à 24 h avant, depuis le lien reçu par e-mail. Aucun frais, aucune justification. En deçà de 24 h, un simple appel suffit.
 
-## How long do the marks last? (English)
-The circular discolorations usually fade within 3 to 7 days depending on your circulation. They are harmless, painless marks, not bruises.
+## Je règle comment ?
+Sur place, en fin de séance. Facture remise systématiquement.
 
-## Who is this therapy for? (English)
-It suits people with muscle tension, stress, fatigue, or mild chronic pain, and athletes seeking faster recovery.
-
-## How long is a session? (English)
-Plan for 45 to 75 minutes depending on the chosen treatment, including an initial consultation.
-
-## How do I book? (English)
-By email at bonjour@soma-souffle.com.
+## Une séance remplace-t-elle une consultation médicale ?
+Non. C'est une prestation de bien-être : aucun diagnostic, aucun traitement. La séance ne remplace pas une consultation médicale.

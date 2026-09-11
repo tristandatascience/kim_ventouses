@@ -1,195 +1,874 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Soma &amp; Souffle — Thérapie par ventouses à Paris | Cupping Therapy</title>
-  <meta name="description" data-i18n-meta="description" content="Thérapie par ventouses à Paris : soulagez les tensions, améliorez la circulation et retrouvez l'équilibre. Cupping therapy in Paris.">
-  <meta property="og:title" content="Soma & Souffle — Thérapie par ventouses | Cupping Therapy">
-  <meta property="og:description" content="Soulagez les tensions et retrouvez l'équilibre grâce à la thérapie par ventouses.">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary_large_image">
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ventouses &amp; Gua Sha à Ivry-sur-Seine - séance bien-être</title>
+<meta name="description" content="Ventouses sèches, Gua Sha et pistolet de massage à Ivry-sur-Seine. 30 ou 60 min, 60 ou 90 €. Prestation de bien-être. Réservation en ligne.">
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Ventouses &amp; Gua Sha à Ivry-sur-Seine">
+<meta property="og:description" content="Un temps de détente et de relâchement corporel. 30 ou 60 min, à partir de 60 €. Réservation en ligne.">
+<meta property="og:url" content="[URL_DU_SITE]">
+<meta property="og:image" content="[URL_DU_SITE]/apercu.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="[URL_DU_SITE]">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..600&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"HealthAndBeautyBusiness",
+  "name":"[Nom de l'activité]",
+  "description":"Séances de ventouses sèches, Gua Sha et pistolet de massage. Prestation de bien-être et de détente, à Ivry-sur-Seine.",
+  "url":"[URL_DU_SITE]",
+  "telephone":"+33 7 44 83 81 11",
+  "email":"[email]",
+  "address":{"@type":"PostalAddress","streetAddress":"Centre paramédical Place Badi, 105 avenue Georges Gosnat","addressLocality":"Ivry-sur-Seine","postalCode":"94200","addressCountry":"FR"},
+  "priceRange":"60–90 €",
+  "currenciesAccepted":"EUR",
+  "areaServed":["Ivry-sur-Seine","Vitry-sur-Seine","Charenton-le-Pont","Paris 13e"],
+  "openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["[jours]"],"opens":"[hh:mm]","closes":"[hh:mm]"}],
+  "makesOffer":[
+    {"@type":"Offer","name":"Ventouses ciblées","price":"60","priceCurrency":"EUR"},
+    {"@type":"Offer","name":"Gua Sha corporel","price":"60","priceCurrency":"EUR"},
+    {"@type":"Offer","name":"Ventouses & Gua Sha","price":"90","priceCurrency":"EUR"}
+  ]
+}
+</script>
+
+<style>
+  :root{
+    --bg:#f5f3ee; --surface:#fff; --ink:#2b2e26; --ink-soft:#6b7161;
+    --accent:#5b764f; --accent-ink:#fff; --accent-soft:#e6ebdd; --line:#e2e1d5;
+    --warn-bg:#f6f0e0; --warn-line:#ddd0a3; --warn-ink:#7a6420;
+    --bar:rgba(245,243,238,.94); --veil:rgba(94,122,82,.06);
+    --deep:#2c352a; --deep-ink:#eef1e8;
+    --display:"Fraunces", Georgia, "Times New Roman", serif;
+    --text:ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#171a15; --surface:#1f231b; --ink:#edf0e6; --ink-soft:#a7ae9c;
+      --accent:#8fac80; --accent-ink:#12160f; --accent-soft:#2b3324; --line:#2d3327;
+      --warn-bg:#2a2417; --warn-line:#584c29; --warn-ink:#dcc88f;
+      --bar:rgba(23,26,21,.94); --veil:rgba(143,172,128,.07);
+      --deep:#11150f; --deep-ink:#e4e9dc;
+    }
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.7 var(--text); -webkit-font-smoothing:antialiased;
+    padding-bottom:86px; overflow-x:hidden;
+  }
+  @media (min-width:721px){ body{padding-bottom:0} }
+
+  .wrap{max-width:660px; margin:0 auto; padding:0 24px}
+  .wide{max-width:1120px; margin:0 auto; padding:0 24px}
+
+  h1,h2,h3{font-family:var(--display); font-optical-sizing:auto; font-weight:400; line-height:1.1; letter-spacing:-.02em}
+  h1{font-size:clamp(2.9rem,9vw,5.6rem); margin:0 0 .28em}
+  h2{font-size:clamp(1.8rem,4.2vw,2.7rem); margin:0 0 .55em}
+  h3{font-size:1.3rem; margin:0 0 .35em; font-weight:500}
+  p{margin:0 0 1.15em}
+  a{color:var(--accent)}
+  .muted{color:var(--ink-soft)}
+  .small{font-size:.92rem}
+  .center{text-align:center}
+
+  section{padding:clamp(68px,10vw,138px) 0}
+  section.tint{background:var(--veil)}
+  .eyebrow{
+    font-size:.7rem; font-weight:600; letter-spacing:.22em;
+    text-transform:uppercase; color:var(--accent); margin:0 0 1.5em;
+  }
+  .intro{max-width:33em; margin-bottom:clamp(40px,6vw,76px)}
+
+  /* ── En-tête ──────────────────────────────────────────────── */
+  .hero{padding:clamp(44px,7vw,84px) 0 clamp(40px,6vw,76px)}
+  .split{display:grid; gap:clamp(30px,5vw,60px); align-items:center}
+  @media (min-width:900px){ .split{grid-template-columns:1.05fr .95fr} }
+  .lede{font-size:clamp(1.06rem,1.9vw,1.26rem); color:var(--ink-soft); max-width:29em; margin:0 0 2.1em}
+  .cta-note{font-size:.82rem; color:var(--ink-soft); margin:15px 0 0}
+
+  /* ── Emplacements photo ───────────────────────────────────── */
+  .photo{
+    position:relative; overflow:hidden; border-radius:22px; display:grid; place-items:center;
+    background:
+      radial-gradient(130% 110% at 25% 0%, var(--accent-soft), transparent 60%),
+      linear-gradient(155deg, var(--surface), var(--accent-soft));
+    border:1px solid var(--line);
+  }
+  /* Formes organiques du fond, visibles tant qu'aucune photo n'est posée. */
+  .photo::before{
+    content:""; position:absolute; pointer-events:none;
+    width:78%; aspect-ratio:1; right:-16%; bottom:-22%;
+    border-radius:48% 52% 40% 60% / 55% 45% 55% 45%;
+    background:var(--accent); opacity:.10;
+  }
+  .photo::after{
+    content:""; position:absolute; pointer-events:none;
+    width:46%; aspect-ratio:1; left:-10%; top:-12%;
+    border-radius:56% 44% 62% 38% / 42% 58% 42% 58%;
+    background:var(--accent); opacity:.07;
+  }
+  .photo img{
+    width:100%; height:100%; object-fit:cover; display:block;
+    position:relative; z-index:2;
+  }
+  .photo .illus{
+    position:relative; z-index:1;
+    width:min(62%,260px); height:auto;
+  }
+  .photo.tall{aspect-ratio:4/5}
+  .photo.wide-r{aspect-ratio:3/2}
+  .photo.square{aspect-ratio:1/1}
+
+  /* ── Bandeau pleine largeur, teinté ───────────────────────── */
+  .band{
+    position:relative; background:var(--deep); color:var(--deep-ink);
+    padding:clamp(70px,11vw,150px) 0; overflow:hidden; text-align:center;
+  }
+  .band img{
+    position:absolute; inset:0; width:100%; height:100%; object-fit:cover;
+    opacity:.42; filter:saturate(.55);
+  }
+  .band .inner{position:relative; z-index:1; max-width:26em; margin:0 auto; padding:0 24px}
+  .band h2{color:var(--deep-ink); margin-bottom:.4em}
+  .band p{color:var(--deep-ink); opacity:.82; margin:0}
+  .band .eyebrow{color:var(--deep-ink); opacity:.6}
+
+  /* ── Boutons ──────────────────────────────────────────────── */
+  .btn{
+    display:inline-block; padding:15px 32px; border-radius:999px; background:var(--accent);
+    color:var(--accent-ink); text-decoration:none; font-weight:600; font-size:.95rem;
+    border:1px solid var(--accent); transition:transform .5s cubic-bezier(.2,.7,.3,1), opacity .4s;
+  }
+  .btn:hover{transform:translateY(-2px); opacity:.93}
+  .btn-ghost{background:transparent; color:var(--accent)}
+
+  /* ── Techniques en quinconce ──────────────────────────────── */
+  .tech{display:grid; gap:clamp(22px,4vw,54px); align-items:center; margin:0 0 clamp(46px,7vw,100px)}
+  .tech:last-child{margin-bottom:0}
+  @media (min-width:820px){
+    .tech{grid-template-columns:1fr 1fr}
+    .tech:nth-of-type(even) .tech-media{order:2}
+    .tech:nth-of-type(odd) .tech-body{padding-left:clamp(0px,2.5vw,38px)}
+    .tech:nth-of-type(even) .tech-body{padding-right:clamp(0px,2.5vw,38px)}
+  }
+  .tech-num{font-family:var(--display); font-size:.9rem; color:var(--accent); letter-spacing:.16em; display:block; margin:0 0 .9em}
+  .tech-body p{color:var(--ink-soft); margin:0}
+
+  /* ── Formules ─────────────────────────────────────────────── */
+  .cards{display:grid; gap:20px}
+  @media (min-width:900px){
+    .cards{grid-template-columns:repeat(3,1fr); align-items:start}
+    .cards>.card:nth-child(2){transform:translateY(-26px)}
+    .cards>.card:nth-child(2):hover{transform:translateY(-32px)}
+  }
+  .card{
+    background:var(--surface); border:1px solid var(--line); border-radius:22px;
+    padding:32px 30px; display:flex; flex-direction:column;
+    transition:transform .55s cubic-bezier(.2,.7,.3,1), border-color .4s;
+  }
+  .card:hover{transform:translateY(-6px); border-color:var(--accent)}
+  .card.feature{border-color:var(--accent)}
+  .card h3{margin:0}
+  .dur{font-size:.74rem; letter-spacing:.16em; text-transform:uppercase; color:var(--ink-soft); margin:.6em 0 0}
+  .price{font-family:var(--display); font-size:2.2rem; margin:.3em 0 .55em; display:block; line-height:1}
+  .card p{color:var(--ink-soft); font-size:.94rem; flex:1}
+  .card .btn{margin-top:22px; align-self:flex-start; padding:12px 26px; font-size:.9rem}
+
+  /* ── Blocs ────────────────────────────────────────────────── */
+  .panel{background:var(--surface); border:1px solid var(--line); border-radius:22px; padding:32px 34px}
+  .note{background:var(--warn-bg); border:1px solid var(--warn-line); color:var(--warn-ink); border-radius:22px; padding:28px 32px}
+  .note p:last-child, .panel p:last-child, .panel ul:last-child{margin-bottom:0}
+  .note strong{color:inherit}
+  .panel h3{font-family:var(--text); font-size:1rem; font-weight:600}
+
+  ol.steps{counter-reset:s; list-style:none; padding:0; margin:0; display:grid; gap:28px}
+  @media (min-width:760px){ ol.steps{grid-template-columns:1fr 1fr; gap:38px 44px} }
+  ol.steps li{counter-increment:s; position:relative; padding-left:54px}
+  ol.steps li::before{
+    content:counter(s,decimal-leading-zero); position:absolute; left:0; top:-2px;
+    font-family:var(--display); font-size:1.1rem; color:var(--accent);
+  }
+  ol.steps b{display:block; font-size:1rem; margin-bottom:.3em}
+  ol.steps span{color:var(--ink-soft); font-size:.94rem}
+
+  ul.check{list-style:none; padding:0; margin:.6em 0}
+  ul.check li{position:relative; padding:0 0 .6em 26px; color:var(--ink-soft)}
+  ul.check li::before{content:"—"; position:absolute; left:0; color:var(--accent)}
+
+  details{border-bottom:1px solid var(--line)}
+  details summary{cursor:pointer; list-style:none; padding:21px 36px 21px 0; position:relative; font-size:1.02rem; font-weight:600; transition:color .3s}
+  details summary:hover{color:var(--accent)}
+  details summary::-webkit-details-marker{display:none}
+  details summary::after{
+    content:""; position:absolute; right:7px; top:50%; width:10px; height:10px;
+    border-right:1.5px solid var(--accent); border-bottom:1.5px solid var(--accent);
+    transform:translateY(-70%) rotate(45deg); transition:transform .35s;
+  }
+  details[open] summary::after{transform:translateY(-25%) rotate(-135deg)}
+  details .body{padding:0 0 22px; color:var(--ink-soft)}
+  details .body p:last-child{margin-bottom:0}
+
+  #reserver{scroll-margin-top:20px}
+  .embed{border:1px solid var(--line); border-radius:22px; overflow:hidden; background:var(--surface)}
+  .embed iframe{display:block; width:100%; height:640px; border:0}
+
+  blockquote.avis{margin:0; padding:28px 32px; background:var(--surface); border:1px solid var(--line); border-radius:22px}
+  blockquote.avis p{margin:0 0 .8em; font-family:var(--display); font-size:1.12rem; font-weight:300; line-height:1.5}
+  blockquote.avis cite{font-size:.85rem; color:var(--ink-soft); font-style:normal}
+  .duo{display:grid; gap:20px}
+  @media (min-width:760px){ .duo{grid-template-columns:1fr 1fr} }
+
+  .stickybar{
+    position:fixed; left:0; right:0; bottom:0; z-index:20; background:var(--bar);
+    backdrop-filter:saturate(180%) blur(14px); border-top:1px solid var(--line);
+    padding:12px 18px calc(12px + env(safe-area-inset-bottom));
+    display:flex; align-items:center; gap:14px; justify-content:space-between;
+  }
+  .stickybar .lbl{font-size:.8rem; line-height:1.35; color:var(--ink-soft)}
+  .stickybar .lbl b{display:block; color:var(--ink); font-size:.95rem}
+  .stickybar .btn{padding:12px 26px; white-space:nowrap}
+  @media (min-width:721px){ .stickybar{display:none} }
+
+  footer{border-top:1px solid var(--line); font-size:.85rem; color:var(--ink-soft); line-height:1.8}
+  footer h2{font-family:var(--text); font-size:.7rem; letter-spacing:.18em; text-transform:uppercase; margin:2.2em 0 .5em; color:var(--ink); font-weight:600}
+  .foot{display:grid; gap:6px}
+  @media (min-width:760px){ .foot{grid-template-columns:1fr 1fr; gap:6px 52px} }
+
+  /* ── Apparition au défilement ─────────────────────────────── */
+  .reveal{opacity:0; transform:translateY(24px); transition:opacity .95s ease, transform .95s cubic-bezier(.2,.7,.3,1)}
+  .reveal.seen{opacity:1; transform:none}
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1; transform:none; transition:none}
+    .btn,.card,details summary,details summary::after{transition:none}
+    .btn:hover,.card:hover,.cards>.card:nth-child(2),.cards>.card:nth-child(2):hover{transform:none}
+  }
+</style>
+
   <link rel="icon" href="assets/favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="js/vendor/quikchat/quikchat.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Widget chat (assistant) */
+    .chat-widget{position:fixed;bottom:1.25rem;right:1.25rem;z-index:60;display:flex;flex-direction:column;align-items:flex-end;gap:.75rem;font-family:var(--text)}
+    .chat-bubble-row{display:flex;align-items:center;gap:.7rem}
+    .chat-bubble-label{background:var(--deep,#2c352a);color:var(--deep-ink,#eef1e8);font-size:1.05rem;font-weight:600;padding:.65rem 1.2rem;border-radius:999px;box-shadow:0 10px 24px -8px rgba(20,25,18,.45);white-space:nowrap;animation:bubble-tease 6s ease-in-out 2s 3}
+    .chat-widget.open .chat-bubble-label{display:none}
+    @keyframes bubble-tease{0%,100%{transform:translateX(0)}8%{transform:translateX(-5px)}16%{transform:translateX(3px)}24%{transform:translateX(0)}}
+    .chat-toggle{width:3.5rem;height:3.5rem;border-radius:999px;border:none;flex-shrink:0;display:flex;align-items:center;justify-content:center;background:var(--accent,#5b764f);color:var(--accent-ink,#fff);box-shadow:0 14px 28px -10px rgba(43,46,38,.5);transition:transform .25s ease,background-color .2s ease;cursor:pointer}
+    .chat-toggle:hover{transform:scale(1.06)}
+    .chat-toggle svg{width:22px;height:22px}
+    .chat-toggle .icon-close{display:none}
+    .chat-widget.open .chat-toggle{background:var(--ink,#2b2e26)}
+    .chat-widget.open .chat-toggle .icon-open{display:none}
+    .chat-widget.open .chat-toggle .icon-close{display:block}
+    .chat-panel{width:min(94vw,420px);max-height:calc(100vh - 7rem);background:var(--surface,#fff);border:1px solid var(--line,#e2e1d5);border-radius:22px;box-shadow:0 30px 60px -18px rgba(20,25,18,.4);overflow:hidden;opacity:0;transform:translateY(.75rem) scale(.96);pointer-events:none;transition:opacity .28s ease,transform .28s ease;transform-origin:bottom right;display:flex;flex-direction:column}
+    .chat-widget.open .chat-panel{opacity:1;transform:none;pointer-events:auto}
+    .chat-header{display:flex;align-items:center;justify-content:space-between;padding:.9rem 1.1rem;background:var(--deep,#2c352a);color:var(--deep-ink,#eef1e8)}
+    .chat-header-id{display:flex;align-items:center;gap:.7rem}
+    .chat-avatar{position:relative;width:2.3rem;height:2.3rem;border-radius:999px;display:flex;align-items:center;justify-content:center;background:rgba(91,118,79,.35)}
+    .chat-avatar svg{width:17px;height:17px}
+    .chat-presence{position:absolute;bottom:0;right:0;width:9px;height:9px;border-radius:999px;background:#a6c394;box-shadow:0 0 0 2px var(--deep,#2c352a)}
+    .chat-name{font-family:var(--display,"Fraunces",serif);font-size:.95rem}
+    .chat-status{font-size:.68rem;opacity:.7}
+    .chat-close{border:none;background:transparent;color:inherit;padding:.3rem;border-radius:8px;display:flex;cursor:pointer}
+    .chat-close:hover{background:rgba(238,241,232,.12)}
+    .chat-close svg{width:15px;height:15px}
+    #qc-chat .quikchat-base{height:min(60vh,460px);font-family:var(--text);font-size:.95rem}
+    #qc-chat .quikchat-input-area{border-top:1px solid var(--line,#e2e1d5);background:var(--surface,#fff)}
+    #qc-chat .quikchat-input-send-btn{background:var(--accent,#5b764f);color:var(--accent-ink,#fff);border:none;border-radius:999px;font-weight:600}
+    #qc-chat .quikchat-input-send-btn:disabled{opacity:.55}
+    @media (max-width:640px){
+      .chat-widget{bottom:1rem;right:1rem}
+      .chat-panel{width:calc(100vw - 1.5rem);border-radius:18px}
+      .chat-bubble-label{font-size:.95rem;padding:.55rem 1rem}
+      #qc-chat .quikchat-base{height:min(56vh,440px)}
+    }
+    @media (prefers-reduced-motion: reduce){.chat-bubble-label{animation:none}}
+  </style>
 </head>
 <body>
 
-  <!-- Fond éthéré : halos diffus -->
-  <div class="bg-glow" aria-hidden="true">
-    <div class="bg-glow-sage"></div>
-    <div class="bg-glow-clay"></div>
+<!-- ═══════════════════════════════════════════════════════════════
+     PHOTOS — déposer les fichiers dans site/images/ avec ces noms.
+     Chaque <img> se retire tout seul si le fichier est absent, et
+     laisse un dégradé à sa place. Aucun code à modifier.
+
+       images/lieu.jpg      l'espace, la table, la lumière   portrait
+       images/ambiance.jpg  bandeau pleine largeur           paysage large
+       images/ventouses.jpg les ventouses posées             paysage
+       images/detail.jpg    une ventouse, une matière        carré
+       images/gua-sha.jpg   l'outil de Gua Sha               carré
+       images/acces.jpg     la façade, l'entrée              paysage
+     ═══════════════════════════════════════════════════════════════ -->
+
+<header class="hero wide">
+  <div class="split">
+    <div>
+      <svg width="88" height="38" viewBox="0 0 96 42" aria-hidden="true" fill="none" style="margin-bottom:28px">
+        <ellipse cx="16" cy="21" rx="13" ry="13" stroke="var(--accent)" stroke-width="1.5" opacity=".55"/>
+        <ellipse cx="48" cy="21" rx="17" ry="17" stroke="var(--accent)" stroke-width="1.5"/>
+        <ellipse cx="80" cy="21" rx="13" ry="13" stroke="var(--accent)" stroke-width="1.5" opacity=".55"/>
+        <ellipse cx="48" cy="21" rx="9" ry="9" fill="var(--accent)" opacity=".13"/>
+      </svg>
+      <h1>Ventouses<br>&amp; Gua&nbsp;Sha</h1>
+      <p class="lede">Un temps pour relâcher ce qui s'est accumulé dans le corps. Ventouses posées à sec, Gua Sha, pistolet de massage : on choisit ensemble ce dont vous avez besoin.</p>
+      <a class="btn" href="#reserver">Voir les créneaux disponibles</a>
+      <p class="cta-note">Réservation en ligne · annulation libre jusqu'à 24 h avant</p>
+    </div>
+    <div class="photo tall reveal">
+      <svg class="illus" viewBox="0 0 200 250" aria-hidden="true" fill="none">
+        <path d="M52 18c34 26 52 62 52 104s-16 76-46 110" stroke="var(--accent)" stroke-width="1.6" opacity=".45" stroke-linecap="round"/>
+        <path d="M96 12c30 30 44 68 42 110-2 40-18 78-44 112" stroke="var(--accent)" stroke-width="1.6" opacity=".28" stroke-linecap="round"/>
+        <circle cx="74" cy="72" r="17" stroke="var(--accent)" stroke-width="1.7" opacity=".85"/>
+        <circle cx="74" cy="72" r="8" fill="var(--accent)" opacity=".14"/>
+        <circle cx="94" cy="124" r="21" stroke="var(--accent)" stroke-width="1.7" opacity=".9"/>
+        <circle cx="94" cy="124" r="10" fill="var(--accent)" opacity=".16"/>
+        <circle cx="78" cy="178" r="15" stroke="var(--accent)" stroke-width="1.7" opacity=".75"/>
+        <circle cx="78" cy="178" r="7" fill="var(--accent)" opacity=".12"/>
+        <circle cx="126" cy="86" r="11" stroke="var(--accent)" stroke-width="1.5" opacity=".5"/>
+        <circle cx="122" cy="160" r="9" stroke="var(--accent)" stroke-width="1.5" opacity=".4"/>
+      </svg>
+      <img src="images/lieu.jpg" alt="L'espace de séance à Ivry-sur-Seine" loading="lazy" onerror="this.remove()">
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- ── Pourquoi on vient ──────────────────────────────────── -->
+  <section class="tint">
+    <div class="wide">
+      <div class="split">
+        <div class="reveal">
+          <p class="eyebrow">Pourquoi on vient</p>
+          <h2>Un corps qui accumule,<br>un temps pour le relâcher</h2>
+          <p class="muted">Les ventouses et le Gua Sha se pratiquent depuis des siècles en Asie. Ce qu'on en garde ici, c'est le geste et la sensation : un temps de détente et de relâchement.</p>
+          <ul class="check">
+            <li>après une grosse séance de sport, quand les muscles restent durs le lendemain ;</li>
+            <li>après des journées entières devant un écran, quand la nuque et les épaules se raidissent ;</li>
+            <li>avant un week-end ou des vacances, pour partir détendu·e ;</li>
+            <li>ou simplement pour s'accorder trente minutes sans téléphone.</li>
+          </ul>
+        </div>
+        <div class="photo wide-r reveal">
+          <svg class="illus" viewBox="0 0 240 160" aria-hidden="true" fill="none">
+            <path d="M18 118c26-44 58-66 96-66s70 22 96 66" stroke="var(--accent)" stroke-width="1.6" opacity=".35" stroke-linecap="round"/>
+            <path d="M44 126c20-32 44-48 72-48s52 16 72 48" stroke="var(--accent)" stroke-width="1.6" opacity=".22" stroke-linecap="round"/>
+            <circle cx="88" cy="76" r="19" stroke="var(--accent)" stroke-width="1.7" opacity=".85"/>
+            <circle cx="88" cy="76" r="9" fill="var(--accent)" opacity=".15"/>
+            <circle cx="146" cy="86" r="14" stroke="var(--accent)" stroke-width="1.6" opacity=".6"/>
+            <circle cx="146" cy="86" r="6.5" fill="var(--accent)" opacity=".11"/>
+            <circle cx="182" cy="70" r="9" stroke="var(--accent)" stroke-width="1.4" opacity=".4"/>
+          </svg>
+          <img src="images/ventouses.jpg" alt="Ventouses posées sur le dos" loading="lazy" onerror="this.remove()">
+        </div>
+      </div>
+
+      <div class="panel reveal" style="margin-top:clamp(36px,5vw,66px)">
+        <h3>Ce qu'on ressent</h3>
+        <p><strong>Pendant :</strong> une traction ferme sur la peau, surprenante les premières secondes, puis une chaleur qui monte sous les ventouses. L'intensité se règle à tout moment — une séance n'est jamais douloureuse.</p>
+        <p><strong>Après :</strong> la zone reste chaude un long moment. Le dos paraît plus mobile, les épaules moins hautes. C'est une sensation de détente, pas un effet médical.</p>
+        <p class="small muted">Certaines personnes viennent ponctuellement, quand le corps le réclame. D'autres reviennent régulièrement, une fois par mois ou avant chaque échéance sportive. Les deux se valent — on en parle ensemble à la fin de la séance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Bandeau pleine largeur ─────────────────────────────── -->
+  <div class="band">
+    <img src="images/ambiance.jpg" alt="" loading="lazy" onerror="this.remove()">
+    <div class="inner reveal">
+      <p class="eyebrow">Ivry-sur-Seine</p>
+      <h2>Trente minutes<br>sans téléphone</h2>
+      <p>Un temps pour soi, dans un espace calme, à deux pas du métro.</p>
+    </div>
   </div>
 
-  <!-- Navigation -->
-  <nav class="nav">
-    <div class="container nav-inner">
-      <a href="#" class="logo">Soma &amp; Souffle</a>
-      <div class="nav-right">
-        <div class="nav-links">
-          <a href="#approche" data-i18n="nav.approach">Approche</a>
-          <a href="#services" data-i18n="nav.services">Services</a>
-          <a href="#faq" data-i18n="nav.faq">FAQ</a>
-          <a href="#contact" data-i18n="nav.contact">Contact</a>
-        </div>
-        <div class="lang-toggle" role="group" aria-label="Langue / Language">
-          <button type="button" id="lang-fr" data-lang="fr">FR</button>
-          <button type="button" id="lang-en" data-lang="en">EN</button>
-        </div>
+  <!-- ── Les trois techniques ───────────────────────────────── -->
+  <section>
+    <div class="wide">
+      <div class="intro reveal">
+        <p class="eyebrow">Les trois techniques</p>
+        <h2>Elles se combinent au fil de la séance</h2>
+        <p class="muted">Selon ce que votre corps demande ce jour-là.</p>
       </div>
-    </div>
-  </nav>
 
-  <!-- Hero -->
-  <header class="hero">
-    <div class="container hero-grid">
-    <div class="hero-text">
-        <span class="eyebrow" data-i18n="hero.eyebrow">Vacuothérapie &amp; Bien-être</span>
-        <h1 class="hero-title">
-          <span data-i18n="hero.title1">Relâcher les </span><em><span data-i18n="hero.title2">tensions</span></em><span data-i18n="hero.title3"> par le vide.</span>
-        </h1>
-        <p class="hero-subtitle" data-i18n="hero.subtitle">
-          L'art thérapeutique des ventouses pour restaurer la circulation, soulager les douleurs chroniques et libérer l'énergie stagnante.
-        </p>
-        <div class="hero-ctas">
-          <a href="#contact" class="btn btn-dark" data-i18n="hero.cta1">Réserver une séance</a>
-          <a href="#services" class="btn btn-outline" data-i18n="hero.cta2">Découvrir les soins</a>
+      <div class="tech reveal">
+        <div class="tech-media photo square">
+          <svg class="illus" viewBox="0 0 200 150" aria-hidden="true" fill="none">
+            <!-- la peau, tirée vers le haut sous la cloche -->
+            <path d="M8 112h44c0-30 14-46 48-46s48 16 48 46h44" stroke="var(--accent)" stroke-width="2" opacity=".85" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M52 112c0-30 14-46 48-46s48 16 48 46" fill="var(--accent)" opacity=".12"/>
+            <!-- la cloche de verre -->
+            <path d="M46 112V70c0-26 24-44 54-44s54 18 54 44v42" stroke="var(--accent)" stroke-width="2.2" opacity=".95" stroke-linecap="round"/>
+            <path d="M62 62c2-14 14-24 30-26" stroke="var(--accent)" stroke-width="2" opacity=".4" stroke-linecap="round"/>
+            <!-- l'aspiration -->
+            <path d="M100 100V74M100 74l-6 8M100 74l6 8" stroke="var(--accent)" stroke-width="1.7" opacity=".65" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M76 104V86M124 104V86" stroke="var(--accent)" stroke-width="1.4" opacity=".35" stroke-linecap="round"/>
+          </svg>
+          <img src="images/detail.jpg" alt="Ventouse en verre" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="tech-body">
+          <span class="tech-num">01</span>
+          <h3>Les ventouses</h3>
+          <p>Des cloches de verre ou de silicone posées sur le corps, qui créent une aspiration douce. La peau se soulève, les tissus se décollent, la circulation locale se réveille. Elles restent en place quelques minutes, ou glissent lentement le long du dos.</p>
         </div>
       </div>
-      <div class="hero-image">
-        <img src="assets/hero-cupping.jpg" alt="Séance de ventouses dans une ambiance zen et lumineuse" data-i18n-alt="hero.alt" width="1024" height="1280">
-      </div>
-    </div>
-  </header>
 
-  <!-- Services -->
-  <section id="services" class="section section-card">
-    <div class="container">
-      <div class="section-head">
-        <h2 class="section-title" data-i18n="services.title">Nos Pratiques</h2>
-        <span class="section-subtitle" data-i18n="services.subtitle">Bienfaits de la vacuothérapie</span>
-      </div>
-      <div class="services-grid">
-        <article class="service-card">
-          <div class="service-line"></div>
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.7 7.7a2.5 2.5 0 1 1 1.8 4.3H2"/><path d="M9.6 4.6A2 2 0 1 1 11 8H2"/><path d="M12.6 19.4A2 2 0 1 0 14 16H2"/></svg>
-          </div>
-          <h3 data-i18n="services.s1.title">Drainage Lymphatique</h3>
-          <p data-i18n="services.s1.desc">Stimule l'élimination des toxines et réduit l'inflammation pour une sensation de légèreté immédiate.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-line"></div>
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
-          </div>
-          <h3 data-i18n="services.s2.title">Récupération Sportive</h3>
-          <p data-i18n="services.s2.desc">Décompresse les tissus myofasciaux pour accélérer la réparation musculaire après l'effort.</p>
-        </article>
-        <article class="service-card">
-          <div class="service-line"></div>
-          <div class="service-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
-          </div>
-          <h3 data-i18n="services.s3.title">Équilibre Nerveux</h3>
-          <p data-i18n="services.s3.desc">Une approche douce pour calmer le système nerveux et réduire le stress émotionnel ancré.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- Approche -->
-  <section id="approche" class="section">
-    <div class="container approach-grid">
-      <div class="approach-text">
-        <span class="eyebrow" data-i18n="approach.eyebrow">Notre approche</span>
-        <h2 class="approach-title" data-i18n="approach.title">Une thérapie ancestrale, une écoute moderne.</h2>
-        <div class="approach-paragraphs">
-          <p data-i18n="approach.p1">Chaque séance débute par un échange personnalisé pour comprendre votre corps, vos tensions et vos objectifs. Les ventouses sont alors posées avec précision sur les zones concernées.</p>
-          <p data-i18n="approach.p2">La sensation est celle d'une aspiration ferme et chaleureuse. Laissez-vous porter pendant 30 à 60 minutes dans un environnement calme, parfumé et pensé pour la détente profonde.</p>
+      <div class="tech reveal">
+        <div class="tech-media photo square">
+          <svg class="illus" viewBox="0 0 200 150" aria-hidden="true" fill="none">
+            <!-- la peau -->
+            <path d="M10 116h180" stroke="var(--accent)" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+            <!-- traces du passage, derrière l'outil -->
+            <path d="M28 104h34M22 92h28M36 80h20" stroke="var(--accent)" stroke-width="2.4" opacity=".28" stroke-linecap="round"/>
+            <!-- l'outil, incliné, en contact -->
+            <path d="M148 34c14 6 22 20 20 35-2 16-14 28-30 32l-42 11c-6 2-11-4-8-9l38-62c4-7 14-10 22-7z"
+                  stroke="var(--accent)" stroke-width="2.2" opacity=".95" stroke-linejoin="round"/>
+            <path d="M146 50c8 4 12 13 10 22" stroke="var(--accent)" stroke-width="1.6" opacity=".4" stroke-linecap="round"/>
+            <!-- sens du geste -->
+            <path d="M96 128H52M52 128l9-6M52 128l9 6" stroke="var(--accent)" stroke-width="1.6" opacity=".55" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <img src="images/gua-sha.jpg" alt="Outil de Gua Sha en pierre" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="tech-body">
+          <span class="tech-num">02</span>
+          <h3>Le Gua Sha</h3>
+          <p>Un outil lisse — pierre ou corne — passé sur la peau huilée, avec une pression régulière. Le geste est lent, presque répétitif. Il prolonge le travail des ventouses sur les zones qu'elles atteignent mal : nuque, épaules, avant-bras.</p>
         </div>
       </div>
-      <div class="approach-steps-wrap">
-        <div class="approach-steps">
-          <div class="step">
-            <div class="step-num">1</div>
-            <div>
-              <h3 data-i18n="approach.step1.title">Consultation</h3>
-              <p data-i18n="approach.step1.desc">On fait le point sur vos besoins et vos zones de tension.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-num">2</div>
-            <div>
-              <h3 data-i18n="approach.step2.title">Soin sur mesure</h3>
-              <p data-i18n="approach.step2.desc">Pose des ventouses adaptées à votre corps et à votre ressenti.</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-num">3</div>
-            <div>
-              <h3 data-i18n="approach.step3.title">Conseils &amp; suivi</h3>
-              <p data-i18n="approach.step3.desc">Recommandations personnalisées pour prolonger les bienfaits.</p>
-            </div>
-          </div>
+
+      <div class="tech reveal">
+        <div class="tech-media photo square">
+          <svg class="illus" viewBox="0 0 200 150" aria-hidden="true" fill="none">
+            <!-- le muscle -->
+            <path d="M10 116h180" stroke="var(--accent)" stroke-width="2" opacity=".85" stroke-linecap="round"/>
+            <path d="M34 116c0-16 30-26 66-26s66 10 66 26" fill="var(--accent)" opacity=".1"/>
+            <!-- ondes de percussion sous le point de contact -->
+            <path d="M76 116a24 24 0 0 1 48 0" stroke="var(--accent)" stroke-width="1.7" opacity=".55" stroke-linecap="round"/>
+            <path d="M58 116a42 42 0 0 1 84 0" stroke="var(--accent)" stroke-width="1.5" opacity=".3" stroke-linecap="round"/>
+            <path d="M40 116a60 60 0 0 1 120 0" stroke="var(--accent)" stroke-width="1.4" opacity=".16" stroke-linecap="round"/>
+            <!-- la tête, en contact -->
+            <circle cx="100" cy="92" r="17" fill="var(--accent)" opacity=".16"/>
+            <circle cx="100" cy="92" r="17" stroke="var(--accent)" stroke-width="2.2" opacity=".95"/>
+            <path d="M100 75V34" stroke="var(--accent)" stroke-width="2.2" opacity=".9" stroke-linecap="round"/>
+            <path d="M84 34h32" stroke="var(--accent)" stroke-width="2.4" opacity=".7" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="tech-body">
+          <span class="tech-num">03</span>
+          <h3>Le pistolet de massage</h3>
+          <p>Un Theragun PRO, quelques minutes avant la pose des ventouses. Des percussions rapides sur le muscle, jamais sur les os ni les articulations. Les fibres se relâchent en surface, et l'aspiration devient bien plus confortable — c'est pour cela qu'il passe en premier, dans les deux formules à ventouses.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- FAQ -->
-  <section id="faq" class="section section-soft">
-    <div class="container faq-wrap">
-      <h2 class="section-title faq-title" data-i18n="faq.title">Questions Fréquentes</h2>
-      <div class="faq-list">
-        <div class="faq-item">
-          <h3 data-i18n="faq.q1">Est-ce que les ventouses font mal ?</h3>
-          <p data-i18n="faq.a1">Non, la sensation est celle d'une pression inverse ferme mais confortable. Nous ajustons l'intensité à votre ressenti.</p>
+  <!-- ── Les formules ───────────────────────────────────────── -->
+  <section class="tint">
+    <div class="wide">
+      <div class="intro reveal">
+        <p class="eyebrow">Les formules</p>
+        <h2>Trois façons de venir</h2>
+      </div>
+
+      <div class="cards reveal">
+        <div class="card">
+          <h3>Ventouses ciblées</h3>
+          <p class="dur">30 min</p>
+          <span class="price">60 €</span>
+          <p>Une seule zone : la nuque, le bas du dos, les mollets. Quelques minutes de pistolet pour détendre le muscle, puis 4 à 8 ventouses sur les points de tension. Le format direct, quand une zone précise réclame de l'attention.</p>
+          <a class="btn btn-ghost" data-cal-link="ventouses-ciblees" href="mailto:[email]?subject=R%C3%A9servation%20%E2%80%94%20Ventouses%20cibl%C3%A9es">Réserver</a>
         </div>
-        <div class="faq-item">
-          <h3 data-i18n="faq.q2">Combien de temps durent les marques ?</h3>
-          <p data-i18n="faq.a2">Les décolorations circulaires disparaissent généralement entre 3 et 7 jours selon votre circulation.</p>
+
+        <div class="card feature">
+          <h3 style="color:var(--accent)">Ventouses &amp; Gua Sha</h3>
+          <p class="dur">60 min</p>
+          <span class="price" style="color:var(--accent)">90 €</span>
+          <p>Les deux techniques réunies, sur le dos entier ou un groupe musculaire. Ici on prend le temps : un échange pour commencer, un vrai passage de Gua Sha sur peau huilée, puis 10 à 20 ventouses pendant que vous restez au repos sous une couverture chauffante. Un modelage de récupération termine la séance.</p>
+          <a class="btn" data-cal-link="ventouses-gua-sha" href="mailto:[email]?subject=R%C3%A9servation%20%E2%80%94%20Ventouses%20%26%20Gua%20Sha">Réserver</a>
         </div>
-        <div class="faq-item">
-          <h3 data-i18n="faq.q3">À qui s'adresse cette thérapie ?</h3>
-          <p data-i18n="faq.a3">Elle convient aux personnes souffrant de tensions musculaires, de stress, de fatigue ou de douleurs chroniques légères.</p>
+
+        <div class="card">
+          <h3>Gua Sha corporel</h3>
+          <p class="dur">30 min</p>
+          <span class="price">60 €</span>
+          <p>Sans ventouses, sans aspiration. Le travail se fait à l'outil — jade ou métal — le long des fibres musculaires, puis un baume chauffant sur la peau réchauffée. Une bonne porte d'entrée si les ventouses vous intriguent sans vous tenter.</p>
+          <a class="btn btn-ghost" data-cal-link="gua-sha" href="mailto:[email]?subject=R%C3%A9servation%20%E2%80%94%20Gua%20Sha">Réserver</a>
         </div>
-        <div class="faq-item">
-          <h3 data-i18n="faq.q4">Quelle est la durée d'une séance ?</h3>
-          <p data-i18n="faq.a4">Comptez entre 45 et 75 minutes selon le soin choisi, dont un temps d'échange initial.</p>
+      </div>
+
+      <p class="small muted reveal" style="margin-top:clamp(30px,4vw,48px); max-width:46em">
+        <strong>Première séance :</strong> 15 minutes offertes pour remplir ensemble le questionnaire préalable.<br>
+        <strong>Forfaits 3 séances :</strong> 30 min 165 € <span class="muted">(55 € la séance)</span> · 60 min 245 € <span class="muted">(≈82 € la séance)</span>. Valables 6 mois, à régler sur place.<br>
+        Aucun supplément : tout est compris dans la formule.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Déroulé ────────────────────────────────────────────── -->
+  <section>
+    <div class="wide">
+      <div class="intro reveal">
+        <p class="eyebrow">Le déroulé</p>
+        <h2>Comment se passe une séance</h2>
+      </div>
+      <ol class="steps reveal">
+        <li><b>On échange quelques minutes</b><span>Ce que vous cherchez, comment vous vous sentez, les zones que vous préférez éviter.</span></li>
+        <li><b>Questionnaire préalable</b><span>Court, rempli ensemble à la première séance. Il sert à écarter les situations où la ventouse est déconseillée.</span></li>
+        <li><b>Le travail sur la zone</b><span>Vous restez habillé·e hors de la zone travaillée. Selon la formule : ventouses posées puis retirées progressivement, Gua Sha sur peau huilée, pistolet de massage sur le muscle.</span></li>
+        <li><b>Quelques minutes pour revenir</b><span>On ne se relève pas d'un coup. Puis les conseils : boire de l'eau, couvrir la zone, éviter sauna et piscine pendant 24 h.</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ── FAQ ────────────────────────────────────────────────── -->
+  <section class="tint">
+    <div class="wrap">
+      <div class="reveal" style="margin-bottom:clamp(26px,4vw,42px)">
+        <p class="eyebrow">Vos questions</p>
+        <h2>Les questions qu'on me pose</h2>
+      </div>
+
+      <div class="reveal">
+        <details open>
+          <summary>Est-ce que ça fait mal ?</summary>
+          <div class="body"><p>Non. La sensation est celle d'une traction ferme sur la peau, parfois surprenante les premières secondes. L'intensité de la succion se règle à tout moment : dites-le simplement et j'ajuste. Une séance ne doit jamais être douloureuse.</p></div>
+        </details>
+
+        <details>
+          <summary>Ces marques, elles partent en combien de temps ?</summary>
+          <div class="body"><p>Entre 3 et 10 jours selon les peaux. Ce sont des cercles rouges à violacés, indolores. C'est l'effet normal de la technique, pas un bleu ni une blessure. Si vous avez un mariage, une séance photo ou la plage dans la semaine, dites-le : on travaille des zones couvertes, ou on décale.</p></div>
+        </details>
+
+        <details>
+          <summary>Je dois me déshabiller entièrement ?</summary>
+          <div class="body"><p>Non. Seule la zone travaillée est découverte, le reste du corps reste couvert. Venez avec un haut confortable, facile à retirer. Vous gardez vos sous-vêtements.</p></div>
+        </details>
+
+        <details>
+          <summary>Je prends un traitement — je peux venir ?</summary>
+          <div class="body"><p>Cela dépend du traitement. Les anticoagulants sont une contre-indication ferme. Pour le reste, <a href="mailto:[email]?subject=Question%20avant%20de%20r%C3%A9server">écrivez-moi avant de réserver</a> : mieux vaut deux minutes d'échange qu'une séance à annuler sur place. Un questionnaire complet est rempli ensemble à la première venue.</p></div>
+        </details>
+
+        <details>
+          <summary>Je ne sais pas quelle formule choisir</summary>
+          <div class="body"><p>Si une zone précise vous gêne — la nuque, le bas du dos —, prenez les <strong>Ventouses ciblées à 60 €</strong> : on va droit au but. Pour un temps plus long et les deux techniques ensemble, c'est <strong>Ventouses &amp; Gua Sha à 90 €</strong>. Et si l'aspiration vous intrigue sans vous tenter, le <strong>Gua Sha corporel à 60 €</strong> travaille à l'outil, sans ventouses. Dans tous les cas, on ajuste sur place si vous vous êtes trompée.</p></div>
+        </details>
+
+        <details>
+          <summary>Et si je dois annuler ?</summary>
+          <div class="body"><p>Librement, jusqu'à 24 h avant, depuis le lien reçu par e-mail. Aucun frais, aucune justification à donner. En deçà de 24 h, un simple appel suffit.</p></div>
+        </details>
+
+        <details>
+          <summary>Je règle comment ?</summary>
+          <div class="body"><p>Sur place, en fin de séance : [espèces, carte, virement]. Facture remise systématiquement.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── À savoir ───────────────────────────────────────────── -->
+  <section>
+    <div class="wrap">
+      <div class="reveal" style="margin-bottom:clamp(22px,3vw,34px)">
+        <p class="eyebrow">Avant de réserver</p>
+        <h2>Ce qu'il faut savoir</h2>
+      </div>
+
+      <div class="note reveal">
+        <p><strong>Les ventouses laissent des marques.</strong> Des cercles rouges à violacés, qui persistent habituellement entre <strong>3 et 10 jours</strong>. C'est l'effet normal de la technique, et c'est sans gravité — mais mieux vaut le savoir avant de réserver. Le Gua Sha laisse le même type de marques.</p>
+      </div>
+
+      <div class="panel reveal" style="margin-top:20px">
+        <h3>Séance déconseillée si</h3>
+        <ul class="check">
+          <li>vous prenez un traitement anticoagulant, ou avez un trouble de la coagulation ;</li>
+          <li>vous avez une plaie, une brûlure ou une infection sur la zone ;</li>
+          <li>vous avez des varices, une phlébite ou une thrombose ;</li>
+          <li>vous avez de la fièvre ou une infection en cours ;</li>
+          <li>vous êtes enceinte ;</li>
+          <li>vous avez une grosseur ou une lésion non identifiée sur la zone.</li>
+        </ul>
+        <p class="small muted" style="margin-top:1.2em">Cette liste n'est pas exhaustive, et une réponse « oui » n'interdit pas toujours la séance. Dans le doute, <a href="mailto:[email]?subject=Question%20avant%20de%20r%C3%A9server">écrivez-moi avant de réserver</a> — on regarde ensemble, ça prend deux minutes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Réservation ────────────────────────────────────────── -->
+  <section class="tint" id="reserver">
+    <div class="wide">
+      <div class="intro reveal">
+        <p class="eyebrow">Réserver</p>
+        <h2>Choisissez votre créneau</h2>
+        <p class="muted">Vous recevrez une confirmation par e-mail, et le rendez-vous s'ajoutera directement à votre agenda.</p>
+      </div>
+
+      <div class="embed reveal" id="cal-inline"></div>
+
+      <script>
+      // ─────────────────────────────────────────────────────────────
+      // RÉSERVATION EN LIGNE — un seul interrupteur.
+      //
+      // Passer CAL_PRET à true UNIQUEMENT quand les DEUX conditions
+      // sont remplies, vérifiables en ouvrant les liens :
+      //
+      //   1. Le profil est PUBLIÉ. Ouvrir cal.com/kim-ngo-qqpuju :
+      //      s'il affiche « Unpublished », ce n'est pas encore le cas.
+      //
+      //   2. Les TROIS événements existent, avec exactement ces slugs :
+      //        cal.com/kim-ngo-qqpuju/ventouses-ciblees   (30 min)
+      //        cal.com/kim-ngo-qqpuju/ventouses-gua-sha   (60 min)
+      //        cal.com/kim-ngo-qqpuju/gua-sha             (30 min)
+      //      Chacun doit répondre — une page 404 signifie qu'il manque.
+      //
+      // Tant que CAL_PRET vaut false, les boutons basculent sur un
+      // e-mail et l'agenda affiche un message d'attente. Aucun lien
+      // mort, aucune erreur Cal.com visible par une cliente.
+      // ─────────────────────────────────────────────────────────────
+      var CAL_USERNAME = "kim-ngo-qqpuju";
+      var CAL_PRET = false;
+
+      var CAL_READY = CAL_PRET && CAL_USERNAME !== "IDENTIFIANT_CAL";
+
+      document.querySelectorAll("[data-cal-link]").forEach(function (el) {
+        var slug = el.getAttribute("data-cal-link");
+        if (CAL_READY) {
+          el.href = "https://cal.com/" + CAL_USERNAME + (slug ? "/" + slug : "") + "?language=fr";
+        }
+        // Sinon : on laisse le mailto: déjà présent dans le HTML.
+      });
+
+      if (CAL_READY) {
+        (function (C, A, L) {
+          var p = function (a, ar) { a.q.push(ar); };
+          var d = C.document;
+          C.Cal = C.Cal || function () {
+            var cal = C.Cal, ar = arguments;
+            if (!cal.loaded) {
+              cal.ns = {}; cal.q = cal.q || [];
+              d.head.appendChild(d.createElement("script")).src = A;
+              cal.loaded = true;
+            }
+            if (ar[0] === L) {
+              var api = function () { p(api, arguments); };
+              var namespace = ar[1];
+              api.q = api.q || [];
+              if (typeof namespace === "string") {
+                cal.ns[namespace] = cal.ns[namespace] || api;
+                p(cal.ns[namespace], ar);
+                p(cal, ["initNamespace", namespace]);
+              } else p(cal, ar);
+              return;
+            }
+            p(cal, ar);
+          };
+        })(window, "https://app.cal.com/embed/embed.js", "init");
+
+        Cal("init", { origin: "https://cal.com" });
+        Cal("inline", {
+          elementOrSelector: "#cal-inline",
+          calLink: CAL_USERNAME,
+          config: { layout: "month_view", language: "fr" }
+        });
+        Cal("ui", { hideEventTypeDetails: false, layout: "month_view" });
+      } else {
+        document.getElementById("cal-inline").innerHTML =
+          '<div style="padding:56px 24px; text-align:center">' +
+          '<p class="muted" style="margin:0">Réservation en ligne bientôt disponible.</p>' +
+          '<p class="small muted" style="margin:.6em 0 0">' +
+          '<a href="mailto:[email]?subject=Demande%20de%20r%C3%A9servation">Écrivez-moi</a> ' +
+          'pour convenir d’un créneau en attendant.</p></div>';
+      }
+      </script>
+
+      <noscript>
+        <p class="small muted center">Activez JavaScript pour afficher l'agenda, ou <a href="mailto:[email]?subject=Demande%20de%20r%C3%A9servation">écrivez-moi</a> pour réserver.</p>
+      </noscript>
+
+      <p class="small muted center" style="margin-top:22px">
+        Un souci d'affichage ? <a href="mailto:[email]?subject=Demande%20de%20r%C3%A9servation">Écrivez-moi</a> pour réserver directement.<br>
+        Aucun créneau ne vous convient ? <a href="mailto:[email]?subject=Demande%20de%20cr%C3%A9neau">Écrivez-moi</a>, j'ouvre régulièrement des disponibilités.
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Qui vous reçoit ────────────────────────────────────── -->
+  <section>
+    <div class="wide">
+      <div class="split">
+        <div class="photo tall reveal" style="max-width:380px">
+          <!-- PORTRAIT — déposer site/images/portrait.jpg
+               Ta propre photo : aucune question de droits.
+               Cadrage buste, lumière naturelle, fond simple.
+               En attendant, l'illustration ci-dessous s'affiche. -->
+          <svg class="illus" viewBox="0 0 180 220" aria-hidden="true" fill="none">
+            <circle cx="90" cy="74" r="34" stroke="var(--accent)" stroke-width="1.8" opacity=".8"/>
+            <path d="M26 206c0-38 29-64 64-64s64 26 64 64" stroke="var(--accent)" stroke-width="1.8" opacity=".8" stroke-linecap="round"/>
+            <path d="M52 196c0-24 17-42 38-42s38 18 38 42" stroke="var(--accent)" stroke-width="1.4" opacity=".35" stroke-linecap="round"/>
+            <circle cx="90" cy="74" r="18" fill="var(--accent)" opacity=".1"/>
+          </svg>
+          <img src="images/portrait.jpg" alt="[Prénom], praticienne" loading="lazy" onerror="this.remove()">
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">Qui vous reçoit</p>
+          <h2>J'ai grandi avec les ventouses</h2>
+          <p class="muted">Chez nous, on les posait en famille. C'était un geste ordinaire — un soir de fatigue, après une longue journée, au retour d'un effort. Personne n'appelait ça un soin : c'était simplement ce qu'on faisait pour se sentir mieux.</p>
+          <p class="muted">En grandissant, j'ai eu envie de transmettre ce que cette pratique m'a apporté : un vrai temps de détente, et une technique asiatique qui mérite d'être mieux connue ici.</p>
+          <p class="muted"><strong>Je pratique depuis dix ans.</strong></p>
+          <p class="small muted">Prestation de bien-être, hors du champ médical. Assurance responsabilité civile professionnelle souscrite auprès de [assureur].</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact / CTA -->
-  <section id="contact" class="section">
-    <div class="container">
-      <div class="cta-card">
-        <h2 data-i18n="contact.title">Prenez soin de vous.</h2>
-        <p data-i18n="contact.subtitle">Réservez votre première séance de ventouses à Paris et ressentez la différence dès le premier soin.</p>
-        <a href="mailto:bonjour@soma-souffle.com" class="btn btn-clay" data-i18n="contact.cta">Réserver par email</a>
-        <p class="cta-hint" data-i18n="contact.hint">Ou écrivez-nous via le chat en bas à droite.</p>
+  <!-- ── Avis ───────────────────────────────────────────────── -->
+  <section class="tint">
+    <div class="wide">
+      <div class="intro reveal">
+        <p class="eyebrow">Retours</p>
+        <h2>Ce qu'en disent les clientes</h2>
+      </div>
+      <!-- ═══════════════════════════════════════════════════════════
+           AVIS — deux façons de faire, à combiner.
+
+           1. AVIS RECOPIÉS À LA MAIN, ci-dessous.
+              Gratuit, sans dépendance, fonctionne tout de suite.
+              N'inscrire QUE de vrais avis, avec l'accord de la personne.
+              Refuser tout avis qui parle de douleur soignée, de
+              pathologie ou de guérison : un avis peut faire porter une
+              allégation thérapeutique jamais écrite par la praticienne.
+              Supprimer la section tant qu'il n'y a pas deux avis réels.
+
+           2. BOUTON « LAISSER UN AVIS », plus bas.
+              Il faut le Place ID de la fiche Google Business Profile,
+              qui n'existe pas encore. Une fois la fiche créée :
+                - récupérer le Place ID sur
+                  developers.google.com/maps/documentation/places/web-service/place-id
+                - remplacer [GOOGLE_PLACE_ID] dans le lien ci-dessous
+                - retirer l'attribut hidden du paragraphe
+
+           AFFICHAGE AUTOMATIQUE des avis Google : impossible
+           gratuitement et sans dépendance. Google ne fournit aucun
+           widget. Les solutions existantes sont soit des widgets tiers
+           à forfait limité (Elfsight, Trustindex), soit l'API Places
+           qui exige une clé et un compte de facturation. Recopier deux
+           ou trois avis à la main reste le meilleur rapport
+           effort/résultat au démarrage.
+           ═══════════════════════════════════════════════════════════ -->
+      <div class="duo reveal">
+        <blockquote class="avis">
+          <p>« [Avis réel, recueilli avec l'accord de la personne.] »</p>
+          <cite>— [Prénom], [mois année]</cite>
+        </blockquote>
+        <blockquote class="avis">
+          <p>« [Avis réel, recueilli avec l'accord de la personne.] »</p>
+          <cite>— [Prénom], [mois année]</cite>
+        </blockquote>
+      </div>
+
+      <p class="center reveal" style="margin-top:clamp(28px,4vw,44px)" hidden>
+        <a class="btn btn-ghost" href="https://search.google.com/local/writereview?placeid=[GOOGLE_PLACE_ID]" target="_blank" rel="noopener">Laisser un avis sur Google</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ── Venir ──────────────────────────────────────────────── -->
+  <section>
+    <div class="wide">
+      <div class="split">
+        <div class="reveal">
+          <p class="eyebrow">Venir</p>
+          <h2>Centre paramédical<br>Place&nbsp;Badi</h2>
+          <p>
+            105 avenue Georges Gosnat<br>
+            94200 Ivry-sur-Seine<br>
+            <span class="muted">[Métro / RER / bus — temps de marche] · [stationnement] · [étage, ascenseur ou non]</span>
+          </p>
+          <p class="small muted">Venez avec un haut confortable, facile à retirer sur la zone concernée. Évitez un repas lourd dans l'heure qui précède, et prévoyez de ne pas enchaîner sur une séance de sport dans la foulée.</p>
+          <p style="margin-top:2em"><a class="btn" href="#reserver">Choisir mon créneau</a></p>
+        </div>
+        <div class="photo wide-r reveal">
+          <svg class="illus" viewBox="0 0 240 160" aria-hidden="true" fill="none">
+            <path d="M18 118c26-44 58-66 96-66s70 22 96 66" stroke="var(--accent)" stroke-width="1.6" opacity=".35" stroke-linecap="round"/>
+            <path d="M44 126c20-32 44-48 72-48s52 16 72 48" stroke="var(--accent)" stroke-width="1.6" opacity=".22" stroke-linecap="round"/>
+            <circle cx="88" cy="76" r="19" stroke="var(--accent)" stroke-width="1.7" opacity=".85"/>
+            <circle cx="88" cy="76" r="9" fill="var(--accent)" opacity=".15"/>
+            <circle cx="146" cy="86" r="14" stroke="var(--accent)" stroke-width="1.6" opacity=".6"/>
+            <circle cx="146" cy="86" r="6.5" fill="var(--accent)" opacity=".11"/>
+            <circle cx="182" cy="70" r="9" stroke="var(--accent)" stroke-width="1.4" opacity=".4"/>
+          </svg>
+          <img src="images/acces.jpg" alt="L'entrée du centre" loading="lazy" onerror="this.remove()">
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-logo">Soma &amp; Souffle</div>
-      <div class="footer-links">
-        <a href="mailto:bonjour@soma-souffle.com">Email</a>
-        <a href="#">Instagram</a>
-      </div>
-      <div class="footer-copy">&copy; <span id="year">2026</span> Soma &amp; Souffle. Paris, FR.</div>
-    </div>
-  </footer>
+</main>
 
-  <!-- Widget chat -->
+<footer>
+  <div class="wide" style="padding-top:10px; padding-bottom:70px">
+    <div class="foot">
+      <div>
+        <h2>Annulation</h2>
+        <p>Annulation et report libres jusqu'à 24 h avant, depuis le lien reçu par e-mail. En deçà, le créneau ne peut plus être proposé à quelqu'un d'autre : merci de prévenir par téléphone dès que possible.</p>
+      </div>
+      <div>
+        <h2>Vos données</h2>
+        <p>Les informations recueillies lors de la réservation et du questionnaire préalable servent uniquement à assurer votre sécurité pendant la séance et le suivi de votre dossier. La réservation en ligne passe par Cal.com ; le questionnaire préalable, lui, reste sur un poste chiffré, hors de tout service en ligne, et n'est transmis à personne. L'ensemble est supprimé 3 ans après notre dernier contact. Vous pouvez demander à consulter, corriger ou faire supprimer vos données, et retirer votre consentement, en écrivant à <a href="mailto:[email]">[email]</a>. Vous pouvez introduire une réclamation auprès de la <a href="https://www.cnil.fr" rel="noopener">CNIL</a>.</p>
+      </div>
+    </div>
+
+    <h2>Mentions légales</h2>
+    <p>
+      [Prénom Nom], entrepreneure individuelle — Centre paramédical Place Badi, 105 avenue Georges Gosnat, 94200 Ivry-sur-Seine<br>
+      SIRET [numéro] · +33 7 44 83 81 11 · <a href="mailto:[email]">[email]</a><br>
+      TVA non applicable, article 293 B du CGI<br>
+      Assurance responsabilité civile professionnelle : [assureur], [n° contrat], couverture France<br>
+      Hébergeur du site : [hébergeur]
+    </p>
+
+    <p style="margin-top:2em; opacity:.7">Prestation de bien-être. Je ne suis pas professionnelle de santé : je ne pose aucun diagnostic et ne délivre aucun traitement. Cette séance ne remplace pas une consultation médicale.</p>
+  </div>
+</footer>
+
+<div class="stickybar">
+  <span class="lbl"><b>À partir de 60 €</b>Annulation libre 24 h avant</span>
+  <a class="btn" href="#reserver">Réserver</a>
+</div>
+
+<script>
+// Apparition au défilement — désactivée si la personne a demandé moins d'animations.
+(function () {
+  var doux = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  var cibles = document.querySelectorAll(".reveal");
+  if (doux || !("IntersectionObserver" in window)) {
+    cibles.forEach(function (el) { el.classList.add("seen"); });
+    return;
+  }
+  var obs = new IntersectionObserver(function (entrees) {
+    entrees.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add("seen"); obs.unobserve(e.target); }
+    });
+  }, { rootMargin: "0px 0px -8% 0px", threshold: 0.08 });
+  cibles.forEach(function (el) { obs.observe(el); });
+})();
+</script>
+
+
+  <!-- Assistant chat -->
   <div class="chat-widget" id="chat-widget">
     <div class="chat-panel" id="chat-panel" aria-hidden="true">
       <div class="chat-header">
@@ -199,30 +878,25 @@
             <span class="chat-presence"></span>
           </div>
           <div>
-            <p class="chat-name" data-i18n="chat.title">Assistant bien-être</p>
-            <p class="chat-status" data-i18n="chat.subtitle">Répond en français &amp; anglais</p>
+            <p class="chat-name">L'assistant du cabinet</p>
+            <p class="chat-status">Répond sous quelques secondes</p>
           </div>
         </div>
-        <button type="button" class="chat-close" id="chat-close" data-i18n-aria-label="chat.close" aria-label="Fermer le chat">
+        <button type="button" class="chat-close" id="chat-close" aria-label="Fermer le chat">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
         </button>
       </div>
-      <div class="chat-body">
-        <div id="qc-chat"></div>
-      </div>
+      <div class="chat-body"><div id="qc-chat"></div></div>
     </div>
     <div class="chat-bubble-row">
-      <span class="chat-bubble-label" id="chat-bubble-label" data-i18n="chat.bubble.label">Une question ?</span>
-      <button type="button" class="chat-toggle" id="chat-toggle" data-i18n-aria-label="chat.open" data-i18n-title="chat.open" aria-label="Ouvrir le chat" title="Ouvrir le chat">
+      <span class="chat-bubble-label" id="chat-bubble-label">Une question ?</span>
+      <button type="button" class="chat-toggle" id="chat-toggle" aria-label="Ouvrir le chat" title="Ouvrir le chat">
         <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
         <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
       </button>
     </div>
   </div>
-
   <script src="js/vendor/quikchat/quikchat-md.umd.min.js"></script>
-  <script src="js/i18n.js"></script>
   <script src="js/chat.js"></script>
-  <script src="js/main.js"></script>
 </body>
 </html>

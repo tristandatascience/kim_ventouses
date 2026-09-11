@@ -1,27 +1,19 @@
-# Le cabinet Soma & Souffle
+# Le cabinet — Ventouses & Gua Sha à Ivry-sur-Seine
 
 ## Présentation
-Soma & Souffle est un cabinet de thérapie par ventouses (vacuothérapie / cupping) situé à Paris, en France. L'approche combine une thérapie ancestrale et une écoute moderne, dans un environnement calme, parfumé et pensé pour la détente profonde.
+Cabinet de bien-être proposant des séances de ventouses sèches, de Gua Sha et de pistolet de massage, situé à Ivry-sur-Seine (94200). Prestation de bien-être et de détente, hors du champ médical : aucun diagnostic, aucun traitement. La praticienne pratique depuis dix ans et a grandi avec les ventouses, un geste familial d'origine asiatique. Assurance responsabilité civile professionnelle souscrite.
 
-## Contact et réservation
-Les séances se réservent par email à l'adresse bonjour@soma-souffle.com. Il est également possible de poser ses questions à l'assistant en ligne disponible sur le site (bulle de chat en bas à droite), qui répond en français et en anglais.
+## Adresse et accès
+Centre paramédical Place Badi, 105 avenue Georges Gosnat, 94200 Ivry-sur-Seine. L'espace de séance est calme, à deux pas du métro.
 
-## Déroulement d'une séance
-Chaque séance débute par un échange personnalisé pour comprendre le corps, les tensions et les objectifs du visiteur. Les ventouses sont ensuite posées avec précision sur les zones concernées. La séance se termine par des conseils personnalisés pour prolonger les bienfaits. La sensation est celle d'une aspiration ferme et chaleureuse.
+## Réservation
+La réservation se fait en ligne directement sur le site (section « Choisissez votre créneau », via Cal.com). Confirmation par e-mail, le rendez-vous s'ajoute à l'agenda. Annulation et report libres jusqu'à 24 h avant depuis le lien reçu par e-mail, sans frais ni justification. Si aucun créneau ne convient, il faut écrire au cabinet qui ouvre régulièrement des disponibilités. Téléphone : +33 7 44 83 81 11.
 
-## Durée des séances
-Une séance dure entre 45 et 75 minutes selon le soin choisi, dont un temps d'échange initial. La pose des ventouses elle-même se déroule sur 30 à 60 minutes.
+## Paiement
+Sur place, en fin de séance. Facture remise systématiquement.
 
-## Localisation
-Le cabinet se trouve à Paris, France. L'adresse exacte est communiquée lors de la réservation par email.
+## Ce qu'il faut porter
+Venir avec un haut confortable, facile à retirer sur la zone concernée. Seule la zone travaillée est découverte, le reste du corps reste couvert. Éviter un repas lourd dans l'heure précédente et ne pas enchaîner sur une séance de sport juste après.
 
-## Langues parlées
-Le cabinet accueille les visiteurs en français et en anglais.
-
-# About Soma & Souffle
-
-## Presentation (English)
-Soma & Souffle is a cupping therapy (vacuotherapy) practice located in Paris, France. The approach blends an ancestral therapy with modern, attentive care in a calm, scented environment designed for deep relaxation.
-
-## Booking (English)
-Sessions are booked by email at bonjour@soma-souffle.com. The online assistant on the website (chat bubble, bottom right) also answers questions in French and English.
+## Données personnelles
+Les informations de réservation et du questionnaire préalable servent uniquement à la sécurité pendant la séance et au suivi du dossier. Le questionnaire reste sur un poste chiffré, hors de tout service en ligne. L'ensemble est supprimé 3 ans après le dernier contact.
