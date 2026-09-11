@@ -1,0 +1,25 @@
+[package]
+name = "soma-api"
+version = "0.1.0"
+edition = "2021"
+description = "Soma & Souffle — serveur statique + API chat (Rig + BM25 RAG)"
+
+[dependencies]
+anyhow = "1"
+axum = "0.8"
+dotenvy = "0.15"
+futures = "0.3"
+rig = "0.42"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal"] }
+tower = "0.5"
+tower-http = { version = "0.6", features = ["fs", "compression-gzip"] }
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+
+[profile.release]
+opt-level = "s"
+lto = true
+strip = true
+codegen-units = 1

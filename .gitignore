@@ -1,0 +1,9 @@
+# Secrets — jamais dans le dépôt (clé Groq, config locale)
+.env
+
+# Rust
+api/target/
+
+# Divers
+*.log
+.DS_Store

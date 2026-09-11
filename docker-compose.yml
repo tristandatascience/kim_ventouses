@@ -1,0 +1,32 @@
+services:
+  app:
+    build: .
+    image: soma-souffle:latest
+    container_name: soma-souffle
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    env_file: .env
+    environment:
+      PORT: 8080
+      STATIC_DIR: /app/static
+      KNOWLEDGE_DIR: /app/knowledge
+    # Permet à l'API de joindre l'Ollama installé sur la machine hôte
+    # (LLM_BASE_URL=http://host.docker.internal:11434).
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    mem_limit: 150m
+
+  # Profil optionnel : Ollama conteneurisé (VPS avec >= 4 Go de RAM).
+  #   docker compose --profile ollama up -d
+  #   docker compose exec ollama ollama pull qwen2.5:3b
+  # puis dans .env : LLM_BASE_URL=http://ollama:11434
+  ollama:
+    image: ollama/ollama:latest
+    profiles: ["ollama"]
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_data:

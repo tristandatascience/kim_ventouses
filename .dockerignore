@@ -1,0 +1,8 @@
+# Le .env ne doit jamais entrer dans le contexte de build
+.env
+
+**/target
+**/node_modules
+.git
+*.md
+!api/knowledge/*.md
