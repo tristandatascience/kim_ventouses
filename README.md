@@ -1,9 +1,10 @@
 # Ventouses & Gua Sha — site + assistant chat (RAG)
 
-Refonte du site **https://kim-ng-ventouses.netlify.app/** (Ventouses & Gua Sha à
-Ivry-sur-Seine) : le design HTML/CSS d'origine repris **verbatim** (Fraunces,
-thème sombre, réservation Cal.com, animations au défilement), enrichi d'un
-**assistant chat RAG**, le tout servi par un **unique conteneur Docker**.
+Site du cabinet (Ivry-sur-Seine) basé sur la **maquette 4 « Héritage »**
+(design V04 : Fraunces + Manrope, papier/encre/terracotta) enrichi d'une couche
+d'animations **GSAP + ScrollTrigger + Lenis** (révélations au défilement, rideau
+photo, tuiles 3D au survol, ligne magique du menu) et d'un **assistant chat RAG**
+branché sur l'API du site, le tout servi par un **unique conteneur Docker**.
 
 ```
 Navigateur ──► conteneur unique (port 8080)
@@ -43,10 +44,9 @@ curl -N -X POST http://localhost:8080/api/chat \
 
 ## Le chat
 
-- **quikchat** (vanilla, ~30 Ko, BSD-2) vendorisé dans `frontend/js/vendor/` :
-  streaming token-par-token, markdown, sanitize anti-XSS.
-- Bulle « Une question ? » en bas à droite, message d'accueil intégré,
-  historique multi-tours (10 derniers messages envoyés au LLM).
+- Fenêtre « L'assistant de Kim » (dialog native de la V04) : suggestions
+  cliquables, streaming token-par-token, indicateur de frappe, bouton
+  « Recommencer », historique multi-tours (10 derniers messages au LLM).
 - Le serveur injecte les `RAG_TOP_K` passages BM25 les plus pertinents de
   `api/knowledge/` dans le prompt système, avec consigne d'exactitude sur les
   prix et durées.
@@ -93,10 +93,10 @@ cargo test   # tests unitaires du BM25
 ## Structure
 
 ```
-├── frontend/               # HTML/CSS/JS du site d'origine (verbatim) + chat
-│   ├── index.html          # design original + widget chat ajouté
-│   ├── images/             # photos optionnelles (auto-retirées si absentes)
-│   └── js/chat.js          # quikchat + SSE /api/chat
+├── frontend/
+│   ├── index.html          # design maquette 4 + animations GSAP/Lenis/jQuery (CDN)
+│   ├── assets/             # favicon + photo rituel-ventouses.png
+│   └── js/concierge.js     # assistant : SSE /api/chat, suggestions, historique
 ├── api/                    # binaire soma-api (Axum)
 │   ├── src/{main,config,llm,rag}.rs
 │   └── knowledge/*.md      # base de connaissance du cabinet
