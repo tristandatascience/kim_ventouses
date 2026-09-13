@@ -7,3 +7,4 @@ api/target/
 # Divers
 *.log
 .DS_Store
+soma-souffle.tar
