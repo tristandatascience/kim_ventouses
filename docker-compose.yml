@@ -3,6 +3,12 @@ services:
     build: .
     image: soma-souffle:latest
     container_name: soma-souffle
+    # Les fichiers servis viennent du dépôt : git pull + docker-compose up -d
+    # suffit pour toute mise à jour du front ou de la base de connaissance,
+    # sans reconstruire l'image (seuls les changements Rust l'exigent).
+    volumes:
+      - ./frontend:/app/static
+      - ./api/knowledge:/app/knowledge
     ports:
       - "${APP_PORT:-8080}:8080"
     env_file: .env
