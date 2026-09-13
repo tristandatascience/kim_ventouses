@@ -171,10 +171,20 @@ html{scroll-padding-top:var(--header-offset)}
 .service-featured.survol .service-price{border-color:#ffffff45}
 
 /* Le reste : interactions discrètes conservées */
-.journey-steps article{transition:padding-left .3s cubic-bezier(.22,1,.36,1)}
-.journey-steps article:hover{padding-left:6px}
-.journey-steps article>span{transition:color .3s}
-.journey-steps article:hover>span{color:var(--accent)}
+.journey-steps article{position:relative;border-radius:12px;background:transparent;
+  transition:background-color .55s ease}
+.journey-steps article::after{content:"";position:absolute;left:-14px;top:8%;bottom:8%;width:2px;border-radius:2px;
+  background:var(--accent);transform:scaleY(0);transform-origin:top;
+  transition:transform .55s cubic-bezier(.22,1,.36,1)}
+.journey-steps article>*{transition:transform .55s cubic-bezier(.22,1,.36,1)}
+.journey-steps article>span{transition:transform .55s cubic-bezier(.22,1,.36,1),color .45s ease}
+.journey-steps article:hover{background:#fffdf7}
+.journey-steps article:hover::after{transform:scaleY(1)}
+.journey-steps article:hover>span{transform:translateY(-2px);color:var(--accent)}
+.journey-steps article:hover h3{transform:translateX(5px)}
+.journey-steps article:hover p{transform:translateX(7px)}
+@media(min-width:761px){.journey-steps article{padding:26px 20px 26px 24px;margin:0 -20px 0 -24px}}
+@media(max-width:760px){.journey-steps article::after{display:none}}
 .faq-list summary{transition:color .25s}
 .faq-list summary:hover{color:var(--accent)}
 .faq-list summary span{transition:transform .25s,color .25s}
