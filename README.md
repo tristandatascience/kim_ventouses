@@ -38,9 +38,12 @@ curl -N -X POST http://localhost:8080/api/chat \
    `LLM_MAX_TOKENS=600` par défaut.
 2. **Ollama sur la machine hôte** (dev) : `LLM_PROVIDER=ollama`,
    `LLM_BASE_URL=http://host.docker.internal:11434`, `LLM_MODEL=qwen2.5:3b`.
-3. **Ollama conteneurisé** (VPS ≥ 4 Go) : `docker compose --profile ollama up -d`
-   puis `docker compose exec ollama ollama pull qwen2.5:3b`,
-   `LLM_BASE_URL=http://ollama:11434`.
+3. **Ollama conteneurisé** (VPS ≥ 4 Go) — option prête dans son fichier dédié :
+   ```bash
+   docker compose -f docker-compose.yml -f docker-compose.ollama.yml up -d
+   docker compose -f docker-compose.yml -f docker-compose.ollama.yml exec ollama ollama pull qwen2.5:3b
+   ```
+   puis `LLM_BASE_URL=http://ollama:11434` dans `.env`.
 
 ## Le chat
 
@@ -101,5 +104,6 @@ cargo test   # tests unitaires du BM25
 │   ├── src/{main,config,llm,rag}.rs
 │   └── knowledge/*.md      # base de connaissance du cabinet
 ├── Dockerfile              # multi-stage : rust → debian-slim (~140 Mo)
-└── docker-compose.yml      # app (+ profil ollama optionnel)
+├── docker-compose.yml      # app (volumes front/knowledge, compatible v1)
+└── docker-compose.ollama.yml # option Ollama conteneurisé (VPS ≥ 4 Go)
 ```
