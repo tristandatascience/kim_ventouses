@@ -1,11 +1,13 @@
+# Compatible docker-compose v1 et v2 (pas de `profiles`, pas de `name`).
+# Les fichiers servis viennent du dépôt : git pull + docker-compose up -d
+# suffit pour toute mise à jour du front ou de la base de connaissance,
+# sans reconstruire l'image (seuls les changements Rust l'exigent).
+# Ollama conteneurisé éventuel : voir docker-compose.ollama.yml.
 services:
   app:
     build: .
     image: soma-souffle:latest
     container_name: soma-souffle
-    # Les fichiers servis viennent du dépôt : git pull + docker-compose up -d
-    # suffit pour toute mise à jour du front ou de la base de connaissance,
-    # sans reconstruire l'image (seuls les changements Rust l'exigent).
     volumes:
       - ./frontend:/app/static
       - ./api/knowledge:/app/knowledge
@@ -22,17 +24,3 @@ services:
       - "host.docker.internal:host-gateway"
     restart: unless-stopped
     mem_limit: 150m
-
-  # Profil optionnel : Ollama conteneurisé (VPS avec >= 4 Go de RAM).
-  #   docker compose --profile ollama up -d
-  #   docker compose exec ollama ollama pull qwen2.5:3b
-  # puis dans .env : LLM_BASE_URL=http://ollama:11434
-  ollama:
-    image: ollama/ollama:latest
-    profiles: ["ollama"]
-    volumes:
-      - ollama_data:/root/.ollama
-    restart: unless-stopped
-
-volumes:
-  ollama_data:

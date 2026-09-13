@@ -1,0 +1,13 @@
+# Ollama conteneurisé (optionnel, VPS avec >= 4 Go de RAM) — compose v2 :
+#   docker compose -f docker-compose.yml -f docker-compose.ollama.yml up -d
+#   docker compose -f docker-compose.yml -f docker-compose.ollama.yml exec ollama ollama pull qwen2.5:3b
+# puis dans .env : LLM_BASE_URL=http://ollama:11434
+services:
+  ollama:
+    image: ollama/ollama:latest
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
